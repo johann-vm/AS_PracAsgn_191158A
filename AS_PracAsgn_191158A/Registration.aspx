@@ -18,25 +18,25 @@
 
             else if (str.search(/[0-9]/) == -1) {
                 document.getElementById("lbl_pwdchecker").innerHTML = "Password require at least 1 number";
-                docuemtn.getElementById("lbl_pwdchecker").style.color = "Red";
+                document.getElementById("lbl_pwdchecker").style.color = "Red";
                 return ("no_number");
             }
 
             else if (str.search(/[a-z]/) == -1) {
                 document.getElementById("lbl_pwdchecker").innerHTML = "Password require at least 1 small letter";
-                docuemtn.getElementById("lbl_pwdchecker").style.color = "Red";
+                document.getElementById("lbl_pwdchecker").style.color = "Red";
                 return ("no_small");
             }
 
             else if (str.search(/[A-Z]/) == -1) {
                 document.getElementById("lbl_pwdchecker").innerHTML = "Password require at least 1 capital letter";
-                docuemtn.getElementById("lbl_pwdchecker").style.color = "Red";
+                document.getElementById("lbl_pwdchecker").style.color = "Red";
                 return ("no_cap");
             }
 
             else if (str.search(/[^a-zA-Z0-9]/) == -1) {
                 document.getElementById("lbl_pwdchecker").innerHTML = "Password require at least 1 special character";
-                docuemtn.getElementById("lbl_pwdchecker").style.color = "Red";
+                document.getElementById("lbl_pwdchecker").style.color = "Red";
                 return ("no_special");
             }
 

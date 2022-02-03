@@ -76,7 +76,6 @@
     <Content Include="CustomError\index404.html" />
     <Content Include="CustomError\style.css" />
     <Content Include="Global.asax" />
-    <Content Include="style.css" />
     <Content Include="Login.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Success.aspx" />
