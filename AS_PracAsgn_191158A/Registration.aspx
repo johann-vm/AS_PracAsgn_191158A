@@ -73,7 +73,8 @@
                     <asp:Label ID="lbl_email" runat="server" Text="Email"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="tb_email" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="tb_email" runat="server" textMode="Email"></asp:TextBox>
+                    <asp:RegularExpressionValidator ID="val_email" runat="server" Text="Enter valid email" ControlToValidate="Email" ValidationExpression="(\w)+@(\w)+.com(.(\w)+)*" ForeColor="Red"/>
                 </td>
             </tr>
             <tr><td></td></tr>
