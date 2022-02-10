@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="AS_PracAsgn_191158A.Registration" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="AS_PracAsgn_191158A.Registration" ValidateRequest="false"%>
 
 <!DOCTYPE html>
 
@@ -73,8 +73,7 @@
                     <asp:Label ID="lbl_email" runat="server" Text="Email"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="tb_email" runat="server" textMode="Email"></asp:TextBox>
-                    <asp:RegularExpressionValidator ID="val_email" runat="server" Text="Enter valid email" ControlToValidate="Email" ValidationExpression="(\w)+@(\w)+.com(.(\w)+)*" ForeColor="Red"/>
+                    <asp:TextBox ID="tb_email" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr><td></td></tr>

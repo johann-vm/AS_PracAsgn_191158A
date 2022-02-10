@@ -30,6 +30,7 @@ namespace AS_PracAsgn_191158A
         }
         protected void btn_submit_Click(object sender, EventArgs e)
         {
+            
             tb_firstname.Text = HttpUtility.HtmlEncode(tb_firstname.Text);
             tb_lastname.Text = HttpUtility.HtmlEncode(tb_lastname.Text);
             tb_email.Text = HttpUtility.HtmlEncode(tb_email.Text);
@@ -38,7 +39,7 @@ namespace AS_PracAsgn_191158A
             tb_crcvv.Text = HttpUtility.HtmlEncode(tb_crcvv.Text);
             tb_password.Text = HttpUtility.HtmlEncode(tb_password.Text);
             tb_birthdate.Text = HttpUtility.HtmlEncode(tb_birthdate.Text);
-
+            
 
             string pwd = tb_password.Text.ToString().Trim(); ;
 

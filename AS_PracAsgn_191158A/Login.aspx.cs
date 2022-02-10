@@ -69,6 +69,9 @@ namespace AS_PracAsgn_191158A
 
         protected void btn_loginsubmit_Click(object sender, EventArgs e)
         {
+            tb_userid.Text = HttpUtility.HtmlEncode(tb_userid.Text);
+            tb_pwd.Text = HttpUtility.HtmlEncode(tb_pwd.Text);
+
             if (ValidateCaptcha())
             {
 

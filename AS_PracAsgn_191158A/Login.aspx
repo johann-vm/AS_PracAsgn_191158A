@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="login_form" runat="server">
-        <asp:Label ID="login_title" runat="server" Text="Account Registration"></asp:Label>
+        <asp:Label ID="login_title" runat="server" Text="Account Login"></asp:Label>
         <br />
         <br />
         <table>
