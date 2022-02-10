@@ -37,7 +37,7 @@ namespace AS_PracAsgn_191158A
             tb_crinfo.Text = HttpUtility.HtmlEncode(tb_crinfo.Text);
             tb_expdate.Text = HttpUtility.HtmlEncode(tb_expdate.Text);
             tb_crcvv.Text = HttpUtility.HtmlEncode(tb_crcvv.Text);
-            tb_password.Text = HttpUtility.HtmlEncode(tb_password.Text);
+            //tb_password.Text = HttpUtility.HtmlEncode(tb_password.Text);
             tb_birthdate.Text = HttpUtility.HtmlEncode(tb_birthdate.Text);
             
 
